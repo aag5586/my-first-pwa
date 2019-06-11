@@ -18,14 +18,16 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <base href="/">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather PWA</title>
+  <title>Public Weather PWA</title>
   <meta name="codelab" content="your-first-pwa-v3">
-  <link rel="stylesheet" type="text/css" href="/styles/inline.css">
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="styles/inline.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
   <!-- CODELAB: Add link rel manifest -->
   <!-- CODELAB: Add iOS meta tags and icons -->
@@ -33,6 +35,7 @@
   <!-- CODELAB: Add meta theme-color -->
 
 </head>
+
 <body>
 
   <header class="header">
@@ -92,9 +95,9 @@
             <span class="value"></span>
           </div>
           <div class="sunset">
-              <span class="label">Sunset:</span>
-              <span class="value"></span>
-            </div>
+            <span class="label">Sunset:</span>
+            <span class="value"></span>
+          </div>
         </div>
       </div>
       <div class="future">
@@ -199,12 +202,13 @@
     </div>
   </div>
 
-  <script src="/scripts/luxon-1.11.4.js"></script>
-  <script src="/scripts/app.js"></script>
+  <script src="scripts/luxon-1.11.4.js"></script>
+  <script src="scripts/app.js"></script>
   <!-- CODELAB: Add the install script here -->
   <script>
     // CODELAB: Register service worker.
   </script>
 
 </body>
+
 </html>
